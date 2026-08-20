@@ -5,7 +5,7 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     
     <PackageId>NinjaCats.Zebra</PackageId>
-    <Version>0.0.1-preview.1</Version>
+    <MinVerTagPrefix>v</MinVerTagPrefix>
     <Authors>NinjaCats</Authors>
     <Description>Zebra. Placeholder release</Description>
     <PackageTags>fsharp;cli;parsing</PackageTags>
@@ -26,6 +26,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
+    <PackageReference Include="MinVer" Version="6.0.0" PrivateAssets="All" />
     <PackageReference Update="FSharp.Core" Version="8.0.100" />
     
     <None Include="../../README.md" Pack="true" PackagePath="/" />
